@@ -141,6 +141,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\anunciosController.cs" />
     <Compile Include="Controllers\comentariosController.cs" />
+    <Compile Include="Controllers\inicialController.cs" />
     <Compile Include="Controllers\usuariosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -192,6 +193,7 @@
     <Content Include="Views\anuncios\Edit.cshtml" />
     <Content Include="Views\anuncios\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\inicial\Principal.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

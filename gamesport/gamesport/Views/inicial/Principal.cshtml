@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Principal";
+}
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Principal</title>
+</head>
+<body>
+    <div>
+        <h2> Bienvenido GameSpor</h2>
+
+        <form action="/anuncios/Index" method="post">
+            <input type="submit" name="Enviar" value="Crear Anuncios" />
+        </form>
+
+        <form action="/anuncios/todosanunc" method="post">
+
+            <input type="submit" name="Enviar" value="Ver anuncios" />
+        </form>
+
+        <form action="/usuarios/Index" method="post">
+            <input type="submit" name="Enviar" value="ver usuarios" />
+        </form>
+
+        <form action="/anuncios/Edit" method="post">
+            <input type="submit" name="Enviar" value="Editar anuncio" />
+        </form>
+
+    </div>
+</body>
+</html>
+
+
